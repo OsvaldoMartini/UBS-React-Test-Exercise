@@ -1,0 +1,49 @@
+.d-tree-container {
+  list-style: none;
+  padding: 0;
+  /* padding-inline-start: 5px; */
+  margin: 0px;
+}
+
+.d-tree-node {
+  padding: 0.5rem 0.85rem;
+}
+
+.d-tree-toggler.active {
+  text-decoration: underline;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  /* width: 50%; */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Styles for caret icons */
+.caret {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border: 6px solid transparent;
+  margin: 0px 7px;
+}
+.caret.down {
+  border-top-color: black;
+  margin-top: 5px;
+}
+.caret.right {
+  border-left-color: black;
+}
+.caret.up {
+  border-bottom-color: black;
+}
+.caret.left {
+  border-right-color: black;
+}
